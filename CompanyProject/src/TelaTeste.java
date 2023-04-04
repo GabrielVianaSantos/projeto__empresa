@@ -32,6 +32,7 @@ public class TelaTeste extends javax.swing.JFrame {
         jCheckBox1 = new javax.swing.JCheckBox();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("TelaTeste");
@@ -71,14 +72,18 @@ public class TelaTeste extends javax.swing.JFrame {
             }
         });
         getContentPane().add(jButton1);
-        jButton1.setBounds(140, 200, 110, 40);
+        jButton1.setBounds(150, 210, 110, 40);
 
         jLabel3.setFont(new java.awt.Font("Bookman Old Style", 1, 18)); // NOI18N
         jLabel3.setText("NOME DA EMPRESA");
         getContentPane().add(jLabel3);
         jLabel3.setBounds(100, 20, 200, 40);
 
-        setSize(new java.awt.Dimension(412, 290));
+        jButton2.setText("Esqueci minha Senha");
+        getContentPane().add(jButton2);
+        jButton2.setBounds(130, 180, 160, 20);
+
+        setSize(new java.awt.Dimension(412, 308));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -131,6 +136,7 @@ public class TelaTeste extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
